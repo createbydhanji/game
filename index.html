@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games</title>
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
+
+<body>
+  <video src="assets/video/video_home.mp4" autoplay muted loop></video>
+
+  <div class="loader">
+    <h1>Games</h1>
+    <h1>Created By <span>Dhanji Gupta</span></h1>
+  </div>
+  <header>
+    <div class="logo">
+      <h1>
+        <span>
+         <img class="brand-logo" height="100px" src="assets/img/logo.png" alt="Brand Logo">
+       
+        </span>
+      </h1>
+    </div>
+    <div class="heading">
+        <h1>Games</h1>
+    </div>
+  </header>
+  <section class="main-sec" > 
+    <div class="height"></div>
+    <div class="container"> 
+    <div class="row">
+      <div class="img">
+        <img src="assets/img/player.png" alt="image" />
+        <a href="player.html">Tic-Tac-Toe</a>
+      </div>
+    
+      <div class="img">
+        <img src="assets/img/rpc.png" alt="image" />
+        <a href="rps.html">Rock Paper Scissors </a>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+  <script>
+    let loader = document.querySelector(".loader");
+
+    setInterval(() => {
+      loader.style.top = "-100%";
+    }, 2000);
+  </script>
+</body>
+
+</html>
